@@ -1,9 +1,7 @@
 {
   "branching": {
     "prefix": "codex/",
-    "create_new_branch": true,
-    "commit": false,
-    "push": false
+    "create_new_branch": true
   },
   "rules": [
     "Always start work in a new branch prefixed with codex/.",

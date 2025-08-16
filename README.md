@@ -1,6 +1,6 @@
-# Nos Vemos – Solvo
+# Nos vemos – Solvo
 
-Nos Vemos (nombre interno **Solvo**) es una aplicación para identificar, gestionar y soltar enganches emocionales mediante registro sencillo, reflexión guiada y recordatorios útiles. Está pensada para ser práctica, discreta y segura.
+Nos vemos (nombre interno **Solvo**) es una aplicación para identificar, gestionar y soltar enganches emocionales mediante registro sencillo, reflexión guiada y recordatorios útiles. Está pensada para ser práctica, discreta y segura.
 
 ---
 
@@ -84,6 +84,9 @@ En desarrollo activo. Objetivo MVP: **otoño de 2025**.
 * **Web app:** [https://solvo.vasa.me](https://solvo.vasa.me)
 * **API:** [https://solvo-api.vasa.me](https://solvo-api.vasa.me)
 * **GitHub:** [https://github.com/nosvemos-app](https://github.com/nosvemos-app)
+* **Issues:** [https://github.com/nosvemos-app/landing/issues](https://github.com/nosvemos-app/landing/issues)
+* **Wiki:** [https://github.com/nosvemos-app/landing/wiki](https://github.com/nosvemos-app/landing/wiki)
+* **Project:** [https://github.com/orgs/nosvemos-app/projects/1](https://github.com/orgs/nosvemos-app/projects/1)
 
 ---
 

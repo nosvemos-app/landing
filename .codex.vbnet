@@ -1,0 +1,3 @@
+Configuration:
+- Always create a new branch with the prefix `codex/`.
+- If you cannot sign commits, do not commit or push to the repository.

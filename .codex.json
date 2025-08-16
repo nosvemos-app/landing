@@ -7,6 +7,6 @@
   },
   "rules": [
     "Always start work in a new branch prefixed with codex/.",
-    "Never sign, commit, or push to the repository."
+    "If you cannot sign commits, do not commit or push to the repository."
   ]
 }

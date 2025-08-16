@@ -1,0 +1,27 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Nos vemos (nombre interno **Solvo**) es una aplicación para identificar, gestionar y soltar enganches emocionales mediante registro sencillo, reflexión guiada y recordatorios útiles. Está pensada para ser práctica, discreta y segura.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosvemos-app/landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nosvemos-app/landing/issues"
+  },
+  "homepage": "https://github.com/nosvemos-app/landing#readme",
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "prettier": "^3.6.2"
+  }
+}

@@ -1,10 +1,13 @@
 {
-  "branching": {
-    "prefix": "codex/",
-    "create_new_branch": true
-  },
-  "rules": [
-    "Always start work in a new branch prefixed with codex/.",
-    "If you cannot sign commits, do not commit or push to the repository."
-  ]
+  "providers": {
+    "codex": {
+      "commit": true,
+      "push": true
+    },
+    "codex-cli": {
+      "commit": false,
+      "push": false,
+      "add": false
+    }
+  }
 }

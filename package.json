@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write .",
-    "lint": "eslint ."
+    "format": "node scripts/format.js",
+    "lint": "node scripts/lint.js",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,16 @@
   "homepage": "https://github.com/nosvemos-app/landing#readme",
   "devDependencies": {
     "eslint": "^9.33.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
     "prettier": "^3.6.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue,cjs,mjs}": [
+      "npm run lint --"
+    ],
+    "*.{js,jsx,ts,tsx,vue,cjs,mjs,json,css,scss,md,yml,yaml}": [
+      "npm run format --"
+    ]
   }
 }

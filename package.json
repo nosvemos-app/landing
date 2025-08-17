@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "node scripts/format.js",
     "lint": "node scripts/lint.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "delete-issues": "chmod +x script/delete-issues.sh && ./script/delete-issues.sh"
   },
   "repository": {
     "type": "git",
